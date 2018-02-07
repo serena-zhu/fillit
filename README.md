@@ -23,4 +23,4 @@ The goal of this program is to arrange all the given Tetriminos with each other 
 
 Here is an example:
 
-<img src="program_example.png" width="300" height="500">
+<img src="program_example.png" width="200" height="400">
