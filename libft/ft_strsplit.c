@@ -6,7 +6,7 @@
 /*   By: yazhu <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/28 18:57:46 by yazhu             #+#    #+#             */
-/*   Updated: 2017/11/30 14:33:23 by yazhu            ###   ########.fr       */
+/*   Updated: 2018/02/06 18:37:20 by yazhu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,10 +72,7 @@ char			**ft_strsplit(char const *s, char c)
 			return (NULL);
 		if (occupy_arr(arr, s, c) == 0)
 			return (NULL);
-		arr[word_count] = (char *)malloc(sizeof(char));
-		if (!arr[word_count])
-			return (NULL);
-		arr[word_count] = NULL;
+		arr[word_count] = (char *)NULL;
 		return (arr);
 	}
 	return (NULL);
