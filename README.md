@@ -6,6 +6,8 @@ Among all possible solutions for the smallest square, the one where Tetriminos a
 
 This was completed as a two-member team project at 42.
 
+##Contents
+
 [Language & Functions Used](#language_functions) | [Installation](#install) | [Usage](#usage) | [Example](#example)
 
 ## <a name="language_functions">Language & Functions Used</a>
@@ -44,9 +46,9 @@ The Makefile will compile a progra named fillit.
 
 #### `Valid Tetriminos`
 
-* Each Tetrimino must be described with 4 lines of 4 characters, each line followed by a new line. 
-
 * A Tetrimino is a classic piece of Tetris composed of 4 blocks, where blocks are represented by '#'.
+
+* Each Tetrimino must be described with 4 lines of 4 characters, each line followed by a new line. 
 
 * Empty characters are represented by '.'.
 
