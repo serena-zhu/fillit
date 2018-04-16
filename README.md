@@ -6,7 +6,7 @@ Among all possible solutions for the smallest square, the one where Tetriminos a
 
 This was completed as a two-member team project at 42.
 
-##Contents
+## Contents
 
 [Language & Functions Used](#language_functions) | [Installation](#install) | [Usage](#usage) | [Example](#example)
 
