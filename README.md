@@ -38,7 +38,7 @@ $ git clone https://github.com/serena-zhu/fillit.git
 $ make
 ```
 
-The Makefile will compile a progra named fillit.
+The Makefile will compile a program named fillit.
 
 <a href="#top">↥ back to top</a>
 
