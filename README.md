@@ -22,7 +22,7 @@ The fillit program is written in C, using only the following functions from the 
 
 <a href="#top">↥ back to top</a>
 
-## <a name="installation">Installation</a>
+## <a name="install">Installation</a>
 
 #### `Step 1` - clone the repo
 
