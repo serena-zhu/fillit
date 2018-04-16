@@ -4,7 +4,7 @@ Fillit is a program that takes a file containing a list of Tetriminos and return
 
 Among all possible solutions for the smallest square, the one where Tetriminos are placed on their most upper-left position is selected. In the solution, each Tetrimino will be assgined a capital letter in accordance to the order it appearred in the file. The maximum number of Tetriminos that can be passed in a file is, therefore, 26.
 
-This is a two-member team project at 42.
+This was completed as a two-member team project at 42.
 
 [Language & Functions Used](#language_functions) | [Installation](#install) | [Usage](#usage) | [Example](#example)
 
@@ -62,7 +62,7 @@ Examples of invalid descriptions of Tetriminos:
 #### `General Usage`
 ```bash
 $ ./ft_ssl
-usage: ./fillit source_file command
+usage: ./fillit source_file
 ```
 Running the program without any parameters will prompt the usage message.
 
@@ -71,11 +71,11 @@ Running the program without any parameters will prompt the usage message.
 $ ./ft_ssl invalid_file.txt
 error
 ```
-Passing an invalid (or empty) file will propt the error message. 
+Passing an invalid (or empty) file will prompt the error message. 
 
 <a href="#top">↥ back to top</a>
 
-## <a name="examples">Examples</a>
+## <a name="example">Example</a>
 
 Here is an example of a valid file and the solution:
 
